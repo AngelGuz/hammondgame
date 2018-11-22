@@ -1,0 +1,56 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl 01_-_Default
+Ka  0.0 0.0 0.0
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+map_Kd botP2.jpg
+#
+newmtl 08_-_Default
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 03_-_Default
+Ka  0.0 0.0 0.0
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+map_Kd botP2Red.jpg
+#
+newmtl 07_-_Default
+Ka  0.0 0.0 0.0
+Kd  0.4 0.4 0.4
+Ks  0.2 0.2 0.2
+d  0.8
+Ns  10.0
+illum 2
+map_Kd botP2Red.jpg
+#
+newmtl 14_-_Default
+Ka  0.0 0.0 0.0
+Kd  0.5 0.5 0.5
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl 15_-_Default
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+# EOF
+
+map_Kd map.jpg

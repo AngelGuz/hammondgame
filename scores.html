@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/App/app.css">
+    <!-- JS -->
+    <script type="" src="JS/Jquery/jquery-3.3.1.min.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBMELO2hhj3R1QDBsO-UcZXSLcIUsjfrQw",
+            authDomain: "multimedia-interactiva-866c1.firebaseapp.com",
+            databaseURL: "https://multimedia-interactiva-866c1.firebaseio.com",
+            projectId: "multimedia-interactiva-866c1",
+            storageBucket: "multimedia-interactiva-866c1.appspot.com",
+            messagingSenderId: "385280828830"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="" class="navbar-brand">Game</a>
+        <form action="" class="form-inline">
+            <p style="margin:0px;" class="navbar-brand" id="idUserName">
+                <p>
+        </form>
+    </nav>
+    <div class="content h-100 d-flex justify-content-center">
+        <div class="my-auto" style="max-width: 800px; width: 100% ">
+            <div class="card text-white bg-dark" id="noseID" style="max-width: 800px; width: 100%;">
+                <div class="card-header">
+                    Mejores Puntajes
+                </div>
+                <div class="card-body mx-auto" style="position: relative;width: 100%;padding: 0px;padding-left: 20px;">
+                    <ul id="list">
+                        
+                    </ul>
+
+                    <div>
+                        <button class="btn btn-outline-light mb-3" id="btnCloseScore" style="position: relative; left: 45%;">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="JS/Firebase/scores.js"></script>
+</body>
+
+</html>

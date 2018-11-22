@@ -1,0 +1,124 @@
+html,body {
+    height: 96%;
+
+  }
+
+  .col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+    background-color: #BBD1EA;
+    border: 1px solid #ddd;
+}
+
+.content-centered{
+    position: relative;
+    top: 350px
+}
+
+#canvas{
+    height: 102.2%;
+}
+
+
+/*    VUE JS - MENU IN GAME     */
+.sidenav{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #81818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color:#f1f1f1;
+}
+
+.btnVue{
+    padding: 8px -1px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #81818181;
+    display: block;
+    transition: 0.3s;
+    background-color: #111;
+    border: 0px;
+}
+.btnVue:hover{
+    color:#f1f1f1;
+}
+
+.sidenav .closebtn{
+    position:absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav .closebtn:hover{
+    color: #f1f1f1;
+}
+
+.counter-down-div{
+    z-index: 200;
+}
+
+.counter-down-div2{
+    z-index: 300;
+}
+
+#contador{
+    z-index: 300;
+    position: absolute;
+    left: 50%;
+}
+
+#contador2{
+    z-index: 400;
+    position: absolute;
+    left: 50%;
+    bottom: 44%;
+}
+
+#app{
+    z-index: 100;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+#scene-section{
+    z-index: 0;
+    position: static;
+}
+#scene-section2{
+    z-index: 0;
+    position: static;
+}
+
+#main{
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height:450px){
+    .sidenav{padding-top: 15px;}
+    .sidenav a{font-size: 18px;}
+}
